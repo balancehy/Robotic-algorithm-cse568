@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 04629d99bf1b8ac05583a58f5971dde71ee2224f
 %% im_align1
 clear
 close all

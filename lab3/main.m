@@ -19,7 +19,3 @@ clear
 close all
 dirstring='imagefile';
 run('im_align3.m')
-
-
-
-

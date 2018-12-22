@@ -1,0 +1,5 @@
+<launch>
+	<node name="stage" pkg="stage_ros" type="stageros"
+	      args="$(find lab2)/world/playground_perception.world" />
+	<node name="controller_perception" pkg="lab2" type="linedetect2.py"/>
+</launch>

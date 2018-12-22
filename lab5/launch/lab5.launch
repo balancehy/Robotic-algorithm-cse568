@@ -1,0 +1,7 @@
+<launch>
+	<param name="goalx" value="4.5" type="double"/>
+	<param name="goaly" value="9.0" type="double"/>
+	<node name="stage" pkg="stage_ros" type="stageros"
+	      args="$(find lab5)/world/playground.world" />
+	<node name="controller" pkg="lab5" type="lab5.py"/>
+</launch>

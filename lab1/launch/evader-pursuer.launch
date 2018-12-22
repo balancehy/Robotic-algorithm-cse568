@@ -1,0 +1,8 @@
+<launch>
+		<node name="stage" pkg="stage_ros" type="stageros"
+	      args="$(find lab1)/world/playground_two.world" />
+		<node name="controller" pkg="lab1" type="avoidobj.py"/>
+		<node name="broad1" pkg="lab1" type="broad_tf.py" output="screen"/>
+
+		<node name="listen" pkg="lab1" type="listen_tf.py"/>
+</launch>
